@@ -4,6 +4,7 @@
     justify-content:space-between;
     background-color: #4aaaa5;
     font-family:Georgia, 'Times New Roman', Times, serif;
+    color: white;
 }
 body {
     background-image: url("embossed-diamond.png");
@@ -13,6 +14,7 @@ body {
     display:flex;
     align-content: center;
 }
+
 .related-links {
     margin-left: 5px;
     margin-right: 5px;
