@@ -88,8 +88,8 @@ img {
     align-items:flex-end;
 }
 footer {
-    position:absolute;
-    bottom: 0px;
+    /* position:absolute; */
+    /* bottom: 0px; */
     border-top: 7px solid teal;
 }
 
