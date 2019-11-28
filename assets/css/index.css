@@ -25,6 +25,10 @@
     margin-left: 24px;
     padding-bottom: 26px;
 }
+.action_page.php {
+    font-family: Arial, Helvetica, sans-serif;
+    padding-right: 26px;
+}
 .portfolio {
     margin-left: 24px;
     padding-bottom: 26px;
@@ -38,10 +42,7 @@
 .box {
         border:2px solid #dddddd;
         width: 960px;
-        /* display:flex; */
-        /* justify-content: center; */
         background-color: #ffffff;
-        /* flex-direction:column; */
         margin-top:63px;
     }
 body {
