@@ -1,10 +1,4 @@
 
-.container-header {
-    display: flex;
-    justify-content:space-between;
-    font-family:Georgia, 'Times New Roman', Times, serif;
-    color: white;
-}
     
 .header {
     display: flex;
