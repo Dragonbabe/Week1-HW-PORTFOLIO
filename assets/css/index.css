@@ -6,11 +6,16 @@
     width: 100%;
     background-color:#ffffff;
     border-color: #cccccc;
+
 }
 .myname {
     color: #ffffff;
     background-color: #4aaaa5;
     margin: 0px;
+}
+.about {
+    margin-left:24px;
+    
 }
 .parent-content {
     width: 100%;
@@ -21,10 +26,10 @@
 .box {
         border:2px solid #dddddd;
         width: 960px;
-        display:flex;
-        justify-content: center;
+        /* display:flex; */
+        /* justify-content: center; */
         background-color: #ffffff;
-        flex-direction:column;
+        /* flex-direction:column; */
         margin-top:63px;
     }
 body {
@@ -38,22 +43,13 @@ body {
     display:flex;
     justify-content: space-between;
 }
-
-.about {
+h2 {
     color: #4aaaa5;
     width: 95%;
+}
+    
+h2, .header {
     border-bottom: 2px solid #cccccc;
-}
-.contact {
-    color: #4aaaa5;
-    width: 95%;
-    border-bottom: 2px solid  #cccccc;
-    margin-top:-340px;
-}
-.portfolio {
-    color: #4aaaa5;
-    width: 95%;
-    border-bottom: 2px solid  #cccccc;
 }
 
 .related-links {
@@ -80,6 +76,10 @@ img {
 .paragraph {
     display:flex;
     align-items:flex-end;
+}
+p {
+    margin-left: 24px;
+    margin-right: 24px;
 }
 footer {
     /* position:absolute; */
