@@ -95,9 +95,9 @@ p {
     margin-right: 24px;
 }
 footer {
-    /* position:absolute; */
-    /* bottom: 0px; */
     border-top: 7px solid teal;
+    padding-bottom: 27px;
+    background-color: #666666;
 }
 
 
