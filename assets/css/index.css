@@ -9,13 +9,25 @@
 
 }
 .myname {
+    padding-top: 15px;
+    padding-left: 13px;
+    padding-right: 13px;
     color: #ffffff;
     background-color: #4aaaa5;
     margin: 0px;
 }
 .about {
     margin-left:24px;
-    
+    padding-bottom: 26px;
+
+}
+.contact {
+    margin-left: 24px;
+    padding-bottom: 26px;
+}
+.portfolio {
+    margin-left: 24px;
+    padding-bottom: 26px;
 }
 .parent-content {
     width: 100%;
@@ -37,6 +49,7 @@ body {
     margin:0;
 }
 .links {
+    padding-bottom: 29px;
     padding-top:25.5px;
     width: 15%;
     font-size:1.2em;
