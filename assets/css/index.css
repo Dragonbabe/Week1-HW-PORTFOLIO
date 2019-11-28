@@ -1,18 +1,65 @@
 
-.masterHeader {
+.container-header {
     display: flex;
     justify-content:space-between;
-    background-color: #4aaaa5;
     font-family:Georgia, 'Times New Roman', Times, serif;
     color: white;
 }
+    
+.header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background-color:#ffffff;
+    border-color: #cccccc;
+}
+.myname {
+    color: #ffffff;
+    background-color: #4aaaa5;
+    margin: 0px;
+}
+.parent-content {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    min-height: 750px;
+}
+.box {
+        border:2px solid #dddddd;
+        width: 960px;
+        display:flex;
+        justify-content: center;
+        background-color: #ffffff;
+        flex-direction:column;
+        margin-top:63px;
+    }
 body {
-    background-image: url("embossed-diamond.png");
+    background-image: url("../images/embossed-diamond.png");
+    margin:0;
+}
+.links {
+    padding-top:25.5px;
+    width: 15%;
+    font-size:1.2em;
+    display:flex;
+    justify-content: space-between;
 }
 
 .about {
-    display:flex;
-    align-content: center;
+    color: #4aaaa5;
+    width: 95%;
+    border-bottom: 2px solid #cccccc;
+}
+.contact {
+    color: #4aaaa5;
+    width: 95%;
+    border-bottom: 2px solid  #cccccc;
+    margin-top:-340px;
+}
+.portfolio {
+    color: #4aaaa5;
+    width: 95%;
+    border-bottom: 2px solid  #cccccc;
 }
 
 .related-links {
@@ -22,28 +69,33 @@ body {
 a {
     color:#777777;
 }
-.mainarea {
-    display:flex;
-    justify-content: flex-end;
-    
-}
+
 
 img {
-    display:flex; 
+    display:flex;
     justify-content:center;
     border: 1px solid #ddd;
     border-radius: 4px;
     padding: 5px;
-    width: 242px;
-  }
+    width: 450px;
+}
+.image {
+    display:flex;
+    justify-content: center;
+}
+.paragraph {
+    display:flex;
+    align-items:flex-end;
+}
+footer {
+    position:absolute;
+    bottom: 0px;
+    border-top: 7px solid teal;
+}
 
 
 
-.container-header {
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-} 
+
 
 
 
